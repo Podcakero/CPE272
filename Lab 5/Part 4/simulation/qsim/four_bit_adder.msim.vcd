@@ -1,0 +1,240 @@
+$comment
+	File created using the following command:
+		vcd file four_bit_adder.msim.vcd -direction
+$end
+$date
+	Sun Oct 04 18:45:50 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module four_bit_adder_vhd_vec_tst $end
+$var wire 1 ! f [4] $end
+$var wire 1 " f [3] $end
+$var wire 1 # f [2] $end
+$var wire 1 $ f [1] $end
+$var wire 1 % f [0] $end
+$var wire 1 & x1 [3] $end
+$var wire 1 ' x1 [2] $end
+$var wire 1 ( x1 [1] $end
+$var wire 1 ) x1 [0] $end
+$var wire 1 * x2 [3] $end
+$var wire 1 + x2 [2] $end
+$var wire 1 , x2 [1] $end
+$var wire 1 - x2 [0] $end
+
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var wire 1 1 devoe $end
+$var wire 1 2 devclrn $end
+$var wire 1 3 devpor $end
+$var wire 1 4 ww_devoe $end
+$var wire 1 5 ww_devclrn $end
+$var wire 1 6 ww_devpor $end
+$var wire 1 7 ww_x1 [3] $end
+$var wire 1 8 ww_x1 [2] $end
+$var wire 1 9 ww_x1 [1] $end
+$var wire 1 : ww_x1 [0] $end
+$var wire 1 ; ww_x2 [3] $end
+$var wire 1 < ww_x2 [2] $end
+$var wire 1 = ww_x2 [1] $end
+$var wire 1 > ww_x2 [0] $end
+$var wire 1 ? ww_f [4] $end
+$var wire 1 @ ww_f [3] $end
+$var wire 1 A ww_f [2] $end
+$var wire 1 B ww_f [1] $end
+$var wire 1 C ww_f [0] $end
+$var wire 1 D \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [4] $end
+$var wire 1 E \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [3] $end
+$var wire 1 F \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [2] $end
+$var wire 1 G \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [1] $end
+$var wire 1 H \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [0] $end
+$var wire 1 I \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [4] $end
+$var wire 1 J \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [3] $end
+$var wire 1 K \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [2] $end
+$var wire 1 L \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [1] $end
+$var wire 1 M \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [0] $end
+$var wire 1 N \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 O \~QUARTUS_CREATED_UNVM~~busy\ $end
+$var wire 1 P \~QUARTUS_CREATED_ADC1~~eoc\ $end
+$var wire 1 Q \~QUARTUS_CREATED_ADC2~~eoc\ $end
+$var wire 1 R \f[0]~output_o\ $end
+$var wire 1 S \f[1]~output_o\ $end
+$var wire 1 T \f[2]~output_o\ $end
+$var wire 1 U \f[3]~output_o\ $end
+$var wire 1 V \f[4]~output_o\ $end
+$var wire 1 W \x1[0]~input_o\ $end
+$var wire 1 X \x2[0]~input_o\ $end
+$var wire 1 Y \adder_1|Sum~0_combout\ $end
+$var wire 1 Z \adder_1|Sum~1_combout\ $end
+$var wire 1 [ \x1[1]~input_o\ $end
+$var wire 1 \ \x2[1]~input_o\ $end
+$var wire 1 ] \adder_2|Sum~1_cout\ $end
+$var wire 1 ^ \adder_2|Sum~2_combout\ $end
+$var wire 1 _ \x1[2]~input_o\ $end
+$var wire 1 ` \x2[2]~input_o\ $end
+$var wire 1 a \adder_2|Sum~3\ $end
+$var wire 1 b \adder_2|Sum~4_combout\ $end
+$var wire 1 c \x1[3]~input_o\ $end
+$var wire 1 d \x2[3]~input_o\ $end
+$var wire 1 e \adder_2|Sum~5\ $end
+$var wire 1 f \adder_2|Sum~6_combout\ $end
+$var wire 1 g \adder_2|Sum~7\ $end
+$var wire 1 h \adder_2|Sum~8_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0.
+1/
+x0
+11
+12
+13
+14
+15
+16
+0N
+zO
+zP
+zQ
+1R
+1S
+0T
+0U
+1V
+1W
+0X
+1Y
+0Z
+0[
+1\
+1]
+1^
+1_
+1`
+1a
+0b
+1c
+0d
+1e
+0f
+0g
+1h
+1&
+1'
+0(
+1)
+0*
+1+
+1,
+0-
+17
+18
+09
+1:
+0;
+1<
+1=
+0>
+1?
+0@
+0A
+1B
+1C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+1!
+0"
+0#
+1$
+1%
+$end
+#160000
+1(
+0,
+1-
+19
+1>
+0=
+0\
+1X
+1[
+0^
+0a
+0Y
+1Z
+0]
+0R
+0S
+1b
+0C
+0B
+1T
+0%
+0$
+1A
+1#
+#340000
+0(
+0-
+0&
+0'
+0)
+0+
+0:
+09
+08
+07
+0>
+0<
+0`
+0X
+0c
+0_
+0[
+0W
+1^
+1a
+1f
+1g
+0Z
+0e
+1U
+1S
+0f
+0^
+0h
+0b
+1@
+1B
+0T
+0V
+0S
+0U
+1$
+1"
+0A
+0?
+0B
+0@
+0$
+0#
+0"
+0!
+#1000000

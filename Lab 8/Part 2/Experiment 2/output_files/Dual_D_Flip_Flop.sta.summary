@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -5.323
+TNS   : -114.376
+
+Type  : Slow 1200mV 85C Model Setup 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : -0.117
+TNS   : -0.117
+
+Type  : Slow 1200mV 85C Model Setup 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : -0.088
+TNS   : -0.088
+
+Type  : Slow 1200mV 85C Model Setup 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : -0.084
+TNS   : -0.084
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -53.508
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -4.775
+TNS   : -100.708
+
+Type  : Slow 1200mV 0C Model Setup 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : -0.001
+TNS   : -0.001
+
+Type  : Slow 1200mV 0C Model Setup 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -53.508
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -1.555
+TNS   : -26.621
+
+Type  : Fast 1200mV 0C Model Setup 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.514
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.537
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.548
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -40.409
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Slow_Flip_Flop:D1_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Slow_Flip_Flop:D2_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Slow_Flip_Flop:Z_dff|Clock_Divider:cdiv|clock_out'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

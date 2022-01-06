@@ -1,0 +1,17 @@
+|ROM
+clk => ~NO_FANOUT~
+read_addr[0] => mem.RADDR
+read_addr[1] => mem.RADDR1
+read_addr[2] => mem.RADDR2
+read_addr[3] => mem.RADDR3
+read_addr[4] => mem.RADDR4
+data_out[0] <= mem.DATAOUT
+data_out[1] <= mem.DATAOUT1
+data_out[2] <= mem.DATAOUT2
+data_out[3] <= mem.DATAOUT3
+data_out[4] <= mem.DATAOUT4
+data_out[5] <= mem.DATAOUT5
+data_out[6] <= mem.DATAOUT6
+data_out[7] <= mem.DATAOUT7
+
+

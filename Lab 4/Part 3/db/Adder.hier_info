@@ -1,0 +1,34 @@
+|Adder
+x1 => f1.IN0
+x1 => C1.IN0
+x1 => f1.IN0
+x2 => f2.IN1
+x2 => f2.IN1
+x2 => C2.IN0
+x2 => f2.IN1
+x2 => f2.IN1
+x3 => f3.IN0
+x3 => f3.IN0
+x3 => f3.IN0
+x3 => f3.IN0
+x4 => f1.IN1
+x4 => C1.IN1
+x4 => f1.IN1
+x5 => f2.IN1
+x5 => f2.IN1
+x5 => C2.IN1
+x5 => C2.IN1
+x5 => C2.IN1
+x5 => f2.IN1
+x5 => f2.IN1
+x5 => C2.IN1
+x6 => f3.IN1
+x6 => f3.IN1
+x6 => f3.IN1
+x6 => f3.IN1
+f1 << f1.DB_MAX_OUTPUT_PORT_TYPE
+f2 << f2.DB_MAX_OUTPUT_PORT_TYPE
+f3 << f3.DB_MAX_OUTPUT_PORT_TYPE
+f4 << f4.DB_MAX_OUTPUT_PORT_TYPE
+
+

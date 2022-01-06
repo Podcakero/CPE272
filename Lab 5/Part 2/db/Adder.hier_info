@@ -1,0 +1,35 @@
+|Adder
+x1[0] => f.IN0
+x1[0] => C[0].IN0
+x1[0] => f.IN0
+x1[1] => C.IN1
+x1[1] => C.IN1
+x1[1] => C.IN1
+x1[1] => f.IN1
+x1[2] => f.IN1
+x1[2] => f.IN1
+x1[2] => f.IN1
+x1[2] => f.IN1
+x2[0] => f.IN1
+x2[0] => C[0].IN1
+x2[0] => f.IN1
+x2[1] => f.IN1
+x2[1] => C.IN1
+x2[1] => C.IN1
+x2[1] => C.IN1
+x2[1] => C.IN1
+x2[1] => f.IN1
+x2[1] => f.IN1
+x2[2] => f.IN1
+x2[2] => f.IN1
+x2[2] => f.IN1
+x2[2] => f.IN1
+x2[2] => f.IN1
+x2[2] => f.IN1
+x2[2] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

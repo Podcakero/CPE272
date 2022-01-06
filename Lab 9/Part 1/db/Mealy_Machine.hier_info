@@ -1,0 +1,13 @@
+|Mealy_Machine
+clk => output1~reg0.CLK
+clk => state~3.DATAIN
+reset => state~5.DATAIN
+reset => output1~reg0.ENA
+input1 => state.DATAB
+input1 => state.DATAA
+input1 => output1.DATAB
+input1 => Selector0.IN1
+input1 => state.DATAB
+output1 <= output1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

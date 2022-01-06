@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/busin/Desktop/College Classes/Fall 2020/CPE 272/Lab 5/Part 4/simulation/qsim
+Efour_bit_adder
+Z1 w1601851546
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 hIbO9BBYYWGW_8lVV<F893
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 [A0e0UP4j3EDHZ:h0KOS^3
+R0
+Z8 8four_bit_adder.vho
+Z9 Ffour_bit_adder.vho
+l0
+L89
+VaY2BkHLD5z<fDkoSN>_da2
+!s100 GDcR_5kCKg`BUejTNXiTV1
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1601851549
+!i10b 1
+Z12 !s108 1601851548.000000
+Z13 !s90 -work|work|four_bit_adder.vho|
+Z14 !s107 four_bit_adder.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 14 four_bit_adder 0 22 aY2BkHLD5z<fDkoSN>_da2
+l163
+L113
+VT1HJid0:cCl?FHD85;C<a2
+!s100 8j@UbTnQ4EQP0APIo`D?W2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Efour_bit_adder_vhd_vec_tst
+Z17 w1601851545
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L32
+VKOZ;[9TIUk7DMz@X5ooVH1
+!s100 <;PUZ_2BiUYJF5aWd][EH2
+R10
+32
+R11
+!i10b 1
+Z20 !s108 1601851549.000000
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Afour_bit_adder_arch
+R5
+R6
+DEx4 work 26 four_bit_adder_vhd_vec_tst 0 22 KOZ;[9TIUk7DMz@X5ooVH1
+l47
+L34
+VF>e8e90kdNdVZff4Oa^PS2
+!s100 DW60]c3=HZLTUinP`CjJi2
+R10
+32
+R11
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L35
+Vhj[i;a0dD85B`o1JPT^cg2
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+R10
+32
+Z23 !s110 1601851548
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
+l76
+L54
+Va5ClDYec`9chO`Ne0M1NL2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R23
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

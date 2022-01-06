@@ -1,0 +1,96 @@
+|four_bit_adder
+x1[0] => adder:adder_1.A
+x1[1] => adder:adder_2.A
+x1[2] => adder:adder_3.A
+x1[3] => adder:adder_4.A
+x2[0] => adder:adder_1.B
+x2[1] => adder:adder_2.B
+x2[2] => adder:adder_3.B
+x2[3] => adder:adder_4.B
+f[0] <= adder:adder_1.Sum
+f[1] <= adder:adder_2.Sum
+f[2] <= adder:adder_3.Sum
+f[3] <= adder:adder_4.Sum
+f[4] <= adder:adder_4.Carry_out
+
+
+|four_bit_adder|adder:adder_1
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry_out <= Carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|adder:adder_2
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry_out <= Carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|adder:adder_3
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry_out <= Carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|adder:adder_4
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+A => Sum.IN0
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+B => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Carry_out.IN1
+Carry_in => Sum.IN1
+Carry_in => Sum.IN1
+Carry_in => Carry_out.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry_out <= Carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,228 @@
+|Simple_Counter
+Clock => Slow_Flip_Flop:Slow_Flip_Flop_0.Cin
+Clock => Slow_Flip_Flop:Slow_Flip_Flop_1.Cin
+Clock => Slow_Flip_Flop:Slow_Flip_Flop_2.Cin
+X => D.IN1
+X => D.IN1
+X => D.IN1
+X => D.IN1
+X => D.IN1
+X => D.IN1
+X => D.IN1
+X => D.IN1
+X => D.IN1
+Q[0] <> Q[0]
+Q[1] <> Q[1]
+Q[2] <> Q[2]
+S[0] <= binary2hex:display.a
+S[1] <= binary2hex:display.b
+S[2] <= binary2hex:display.c
+S[3] <= binary2hex:display.d
+S[4] <= binary2hex:display.e
+S[5] <= binary2hex:display.f
+S[6] <= binary2hex:display.g
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_0
+D => D_Flip_Flop:dff.d
+Cin => Clock_Divider:cdiv.clock_in
+Q <= D_Flip_Flop:dff.q
+Qnot <= D_Flip_Flop:dff.qnot
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_0|Clock_Divider:cdiv
+clock_in => clock_out~reg0.CLK
+clock_in => clock_tmp.CLK
+clock_in => x[0].CLK
+clock_in => x[1].CLK
+clock_in => x[2].CLK
+clock_in => x[3].CLK
+clock_in => x[4].CLK
+clock_in => x[5].CLK
+clock_in => x[6].CLK
+clock_in => x[7].CLK
+clock_in => x[8].CLK
+clock_in => x[9].CLK
+clock_in => x[10].CLK
+clock_in => x[11].CLK
+clock_in => x[12].CLK
+clock_in => x[13].CLK
+clock_in => x[14].CLK
+clock_in => x[15].CLK
+clock_in => x[16].CLK
+clock_in => x[17].CLK
+clock_in => x[18].CLK
+clock_in => x[19].CLK
+clock_in => x[20].CLK
+clock_in => x[21].CLK
+clock_in => x[22].CLK
+clock_in => x[23].CLK
+clock_in => x[24].CLK
+clock_in => x[25].CLK
+clock_in => x[26].CLK
+clock_in => x[27].CLK
+clock_in => x[28].CLK
+clock_in => x[29].CLK
+clock_in => x[30].CLK
+clock_in => x[31].CLK
+clock_out <= clock_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_0|D_Flip_Flop:dff
+clock => qnot~reg0.CLK
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_1
+D => D_Flip_Flop:dff.d
+Cin => Clock_Divider:cdiv.clock_in
+Q <= D_Flip_Flop:dff.q
+Qnot <= D_Flip_Flop:dff.qnot
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_1|Clock_Divider:cdiv
+clock_in => clock_out~reg0.CLK
+clock_in => clock_tmp.CLK
+clock_in => x[0].CLK
+clock_in => x[1].CLK
+clock_in => x[2].CLK
+clock_in => x[3].CLK
+clock_in => x[4].CLK
+clock_in => x[5].CLK
+clock_in => x[6].CLK
+clock_in => x[7].CLK
+clock_in => x[8].CLK
+clock_in => x[9].CLK
+clock_in => x[10].CLK
+clock_in => x[11].CLK
+clock_in => x[12].CLK
+clock_in => x[13].CLK
+clock_in => x[14].CLK
+clock_in => x[15].CLK
+clock_in => x[16].CLK
+clock_in => x[17].CLK
+clock_in => x[18].CLK
+clock_in => x[19].CLK
+clock_in => x[20].CLK
+clock_in => x[21].CLK
+clock_in => x[22].CLK
+clock_in => x[23].CLK
+clock_in => x[24].CLK
+clock_in => x[25].CLK
+clock_in => x[26].CLK
+clock_in => x[27].CLK
+clock_in => x[28].CLK
+clock_in => x[29].CLK
+clock_in => x[30].CLK
+clock_in => x[31].CLK
+clock_out <= clock_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_1|D_Flip_Flop:dff
+clock => qnot~reg0.CLK
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_2
+D => D_Flip_Flop:dff.d
+Cin => Clock_Divider:cdiv.clock_in
+Q <= D_Flip_Flop:dff.q
+Qnot <= D_Flip_Flop:dff.qnot
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_2|Clock_Divider:cdiv
+clock_in => clock_out~reg0.CLK
+clock_in => clock_tmp.CLK
+clock_in => x[0].CLK
+clock_in => x[1].CLK
+clock_in => x[2].CLK
+clock_in => x[3].CLK
+clock_in => x[4].CLK
+clock_in => x[5].CLK
+clock_in => x[6].CLK
+clock_in => x[7].CLK
+clock_in => x[8].CLK
+clock_in => x[9].CLK
+clock_in => x[10].CLK
+clock_in => x[11].CLK
+clock_in => x[12].CLK
+clock_in => x[13].CLK
+clock_in => x[14].CLK
+clock_in => x[15].CLK
+clock_in => x[16].CLK
+clock_in => x[17].CLK
+clock_in => x[18].CLK
+clock_in => x[19].CLK
+clock_in => x[20].CLK
+clock_in => x[21].CLK
+clock_in => x[22].CLK
+clock_in => x[23].CLK
+clock_in => x[24].CLK
+clock_in => x[25].CLK
+clock_in => x[26].CLK
+clock_in => x[27].CLK
+clock_in => x[28].CLK
+clock_in => x[29].CLK
+clock_in => x[30].CLK
+clock_in => x[31].CLK
+clock_out <= clock_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Simple_Counter|Slow_Flip_Flop:Slow_Flip_Flop_2|D_Flip_Flop:dff
+clock => qnot~reg0.CLK
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Simple_Counter|binary2hex:display
+W => a.IN0
+W => a.IN0
+W => a.IN0
+W => a.IN0
+X => a.IN1
+X => a.IN1
+X => a.IN1
+X => a.IN1
+Y => a.IN1
+Y => b.IN1
+Y => b.IN1
+Y => c.IN1
+Y => a.IN1
+Y => a.IN1
+Y => a.IN1
+Y => d.IN1
+Z => a.IN1
+Z => a.IN1
+Z => a.IN1
+Z => b.IN1
+Z => b.IN1
+Z => d.IN1
+Z => d.IN1
+Z => e.IN1
+Z => a.IN1
+Z => a.IN1
+Z => b.IN1
+Z => b.IN1
+Z => c.IN1
+Z => d.IN1
+Z => g.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+
